@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 200px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font: optional;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #e67e22;
+}
+
+/* Section Styles */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Tours Section */
+.tour {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+}
+
+.tour img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tour h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}

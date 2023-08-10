@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snow Hike Trekking - Signup</title>
+    <style>
+      /* CSS styling */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .form {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 300px;
+      }
+
+      .form h2 {
+        text-align: center;
+        color: #003366;
+      }
+
+      .form input[type="text"],
+      .form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .form button {
+        width: 100%;
+        background-color: #003366;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .form .error {
+        color: red;
+        margin-bottom: 10px;
+      }
+
+      .form .success {
+        color: green;
+        margin-bottom: 10px;
+      }
+
+      .form .toggle-form {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .form .toggle-form a {
+        color: #003366;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h2>Snow Hike Trekking - Signup</h2>
+        <div id="signup-form">
+          <div class="error" id="signup-error"></div>
+          <input type="text" id="signup-username" placeholder="Username" />
+          <input type="text" id="signup-email" placeholder="Email" />
+          <input type="password" id="signup-password" placeholder="Password" />
+          <button onclick="signup()">Signup</button>
+          <div class="toggle-form">
+            Already have an account? <a href="login.html">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript functionality
+      function signup() {
+        var username = document.getElementById("signup-username").value;
+        var password = document.getElementById("signup-password").value;
+        var signupError = document.getElementById("signup-error");
+
+        // Perform signup logic here (e.g., save user data to a database)
+        // For now, let's assume signup is successful
+        signupError.innerText = "Signup successful! You can now login.";
+      }
+    </script>
+  </body>
+</html>
